@@ -28,7 +28,6 @@ kramdown:
 owner:
   name: Scott Li
   avatar: bio-photo.jpg
-  bio: "Describe your self."
   email: #asdf
   disqus-shortname: scottyli
   twitter: ScottyLi
