@@ -51,6 +51,14 @@ a {
 	}
 }
 
+a.black {
+  &:visited, &:hover, &:focus, &:active {
+    color: black;
+  }
+
+  color: black;
+}
+
 /*
    Figure captions
    ========================================================================== */
