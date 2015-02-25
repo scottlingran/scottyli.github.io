@@ -1,0 +1,60 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="home">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+    <hr />
+    {% include _mailchimp.html %}
+  </div>
+  <div id="index">
+    {% for post in site.posts limit:5 %}
+    {% if post.public %}
+    <article>
+      <div class="headline-wrap">
+        <h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+      </div>
+      <div class="article-wrap">
+        {{ post.content }}
+      </div>
+    </article>
+
+    <br><br>
+    <h3 class="comment-button">
+      <a href="{{ site.url }}{{post.url}}#comments" class="btn">Comments</a>
+    </h3>
+    <hr />
+    <br><br>
+
+    {% endif %}
+    {% endfor %}
+
+    <h2 class="text-center"><a href="/posts">See All</a></h2>
+  </div>
+</div>
+
+
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div>
+
+{% include _scripts.html %}
+
+</body>
+</html>
