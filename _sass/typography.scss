@@ -1,7 +1,6 @@
 /* ==========================================================================
    Typography
    ========================================================================== */
-
 /*
    Headings
    ========================================================================== */
@@ -105,7 +104,8 @@ figcaption {
 	margin-top: 1.5em;
 	padding: .5em 1em;
 	text-indent: 0;
-	@include font-rem(14);
+	@include font-rem($reading-size-pt);
+
 	background-color: $body-color;
 	border: 1px solid darken($body-color,20);
 	@include rounded(3px);
@@ -130,7 +130,7 @@ blockquote {
 .footnotes {
 	ol, li, p {
 		margin-bottom: 0;
-		@include font-rem(14);
+		@include font-rem($reading-size-pt);
 	}
 }
 
@@ -141,6 +141,9 @@ blockquote {
 p {
 	margin: 0 0 ($indent-var);
 	// sibling indentation
+
+  font-size: $reading-size;
+
   line-height: 1.75;
   @if $paragraph-indent == true {
     & + p {
@@ -160,6 +163,7 @@ ul li {
 
 tt, code, kbd, samp, pre {
 	font-family: $code-font;
+  font-size: $reading-size * 0.8;
 }
 p,
 li {

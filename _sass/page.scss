@@ -35,7 +35,7 @@
 		@include grid(12,2);
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
-		@include font-rem(24);
+		@include font-rem(32);
 
 		// margin-bottom: 0px;
 	}
@@ -55,6 +55,7 @@
 	margin-bottom: 1em;
 	float: none;
 	display: block;
+
 
 	@media #{$small} {
 		@include grid(12,9);
@@ -77,7 +78,7 @@
 		list-style-type: none;
 		border-bottom: 1px solid lighten($black,80);
 		border-bottom: 1px solid fade($black,10);
-		@include font-rem(16);
+		@include font-rem(22);
 		&:last-child {
 			border-bottom: 0 solid transparent;
 		}
@@ -174,7 +175,7 @@ $button-size: 1.5rem;
 }
 // Style the toggle menu link and hide it
 .nav .navtoogle {
-	@include font-rem(18);
+	@include font-rem($reading-size-pt);
 	font-weight: normal;
 	background-color: $black;
 	color: $white;
@@ -734,7 +735,7 @@ $button-size: 1.5rem;
 
 .site-name {
 	@media #{$small} {
-		@include grid(12,1.5);
+		@include grid(12,2);
 		@include prefix(12,1.5);
 		@include suffix(12,0.5);
 	}

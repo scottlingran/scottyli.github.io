@@ -12,7 +12,7 @@ Syntax highlighting (changes)is a feature that displays source code, in differen
 
 [^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
-### Pygments Code Blocks
+## Pygments Code Blocks
 
 To modify styling and highlight colors edit `/_sass/_pygments.scss`.
 
@@ -58,7 +58,7 @@ end
 {% endhighlight %}
 
 
-### Standard Code Block
+## Standard Code Block
 
     {% raw %}
     <nav class="pagination" role="navigation">
@@ -72,7 +72,7 @@ end
     {% endraw %}
 
 
-### Fenced Code Blocks
+## Fenced Code Blocks
 
 To modify styling and highlight colors edit `/_sass/_coderay.scss`. Line numbers and a few other things can be modified in `_config.yml`. Consult [Jekyll's documentation](http://jekyllrb.com/docs/configuration/) for more information.
 
@@ -115,7 +115,7 @@ module Jekyll
 end
 ~~~
 
-### GitHub Gist Embed
+## GitHub Gist Embed
 
 An example of a Gist embed below.
 
