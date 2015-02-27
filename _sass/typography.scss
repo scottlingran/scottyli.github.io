@@ -143,6 +143,7 @@ p {
 	// sibling indentation
 
   font-size: $reading-size;
+  word-break: break-word;
 
   line-height: 1.75;
   @if $paragraph-indent == true {
