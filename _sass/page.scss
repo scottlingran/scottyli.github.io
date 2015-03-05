@@ -12,58 +12,43 @@
    Header
    ========================================================================== */
 
-   .navigation-wrapper {
-   	@include container;
-   	padding: 1em 0 0em;
-   	font-family: $heading-font;
-   	font-weight: 700;
-   	text-transform: uppercase;
-   	@include clearfix;
-   	background-color: #E8E8E8;
-   }
+.navigation-wrapper {
+ 	@include container;
+ 	padding: 1em 0;
+ 	font-family: $heading-font;
+ 	font-weight: 700;
+ 	text-transform: uppercase;
+ 	@include clearfix;
+ 	background-color: #E8E8E8;
+}
 
 /* Site name */
 .site-name {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 0em;
-	float: none;
-	display: block;
+	// margin-bottom: 0em;
+	// float: none;
+	// display: block;
 	@include font-rem(24);
 	@media #{$small} {
-		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
 		@include font-rem(32);
-
 		// margin-bottom: 0px;
 	}
 	@media #{$x-large} {
-		@include grid(12,1.5);
-		@include prefix(12,2);
+
 	}
 }
 
 /* Top navigation links */
 .top-navigation {
 	// @include container;
-
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 1em;
+	// margin-bottom: 1em;
 	float: none;
 	display: block;
 
 
 	@media #{$small} {
-		@include grid(12,9);
-		@include prefix(12,0);
-		@include suffix(12,0);
 	}
 	@media #{$x-large} {
-		@include grid(12,8);
+
 	}
 	ul {
 		float: right;
@@ -238,17 +223,13 @@ $button-size: 1.5rem;
 	.post,
 	.page {
 		@include container;
-		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
+		//
 		margin-bottom: 2em;
 		@media #{$small} {
-			@include grid(12,6);
-			@include prefix(12,0);
-			@include suffix(12,0);
+
 		}
 		@media #{$x-large} {
-			@include grid(12,5);
+
 		}
 	}
 }
@@ -256,17 +237,12 @@ $button-size: 1.5rem;
 /* Index listing specific styling */
 #index {
 	@include container;
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
 	margin-bottom: 2em;
 	@media #{$small} {
-		@include grid(12,6);
-		@include prefix(12,0);
-		@include suffix(12,0);
+
 	}
 	@media #{$x-large} {
-		@include grid(12,5);
+
 	}
 }
 
@@ -366,9 +342,7 @@ $button-size: 1.5rem;
 	}
 	@media #{$small} {
 		display: block;
-		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
+
 		h3,
 		p,
 		.author-social {
@@ -395,8 +369,7 @@ $button-size: 1.5rem;
 		}
 	}
 	@media #{$x-large} {
-		@include grid(12,1.5);
-		@include prefix(12,1.5);
+
 	}
 }
 
@@ -435,98 +408,6 @@ $button-size: 1.5rem;
 	}
 }
 
-/* Table of contents */
-.toc {
-	font-size: 95%;
-	@media #{$large} {
-		display: block;
-		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
-		position: absolute;
-		top: 5.5em;
-		right: 0;
-		background-color: $white;
-	}
-	header {
-		background: lighten($black, 10);
-	}
-	h3 {
-		margin: 0;
-		padding: 5px 10px;
-		color: $white;
-		@include font-rem(16);
-		text-transform: uppercase;
-		&:hover {
-			cursor: pointer;
-		}
-	}
-	ul {
-		margin: 2px 0 0;
-		padding: 0;
-		line-height: 1;
-	}
-	li {
-		display: block;
-		margin: 0 0 1px 0;
-		padding: 0;
-		font-family: $heading-font;
-		list-style-type: none;
-		&:last-child {
-			border-bottom-width: 0;
-		}
-		a {
-			padding: 10px;
-			display: block;
-			color: $white;
-			text-decoration: none;
-			background: lighten($black, 30);
-			@include opacity(0.7);
-			@include transition(opacity 0.2s ease-in-out);
-			&:hover {
-				@include opacity(1);
-			}
-		}
-		ul {
-			margin: 1px 0 0;
-			li a {
-				padding-left: 20px;
-			}
-		}
-	}
-}
-
-/* TOC trigger for collapsing */
-#drawer {
-	max-height: 100%;
-	overflow: hidden;
-	&.js-hidden {
-		max-height: 0;
-	}
-}
-
-/* Image grid - not used */
-.image-grid {
-	@include clearfix;
-	list-style: none;
-	margin: 0 0 1em;
-	padding: 0;
-	li {
-		@include grid(12,6);
-		@media #{$micro} {
-			width: 33.333333%;
-		}
-		@media #{$small} {
-			width: 25%;
-		}
-		@media #{$medium} {
-			width: 20%;
-		}
-		@media #{$large} {
-			width: 16.666666666%;
-		}
-	}
-}
 
 /* Recent grid - not used */
 .recent-grid {
@@ -626,31 +507,6 @@ $button-size: 1.5rem;
 	}
 }
 
-/* Related articles list */
-.related-articles {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 2em;
-	@media #{$small} {
-		@include grid(12,6);
-		@include prefix(12,3);
-		@include suffix(12,3);
-	}
-	@media #{$x-large} {
-		@include grid(12,4.5);
-		@include prefix(12,4);
-		@include suffix(12,3.5);
-	}
-	h4 {
-		text-transform: uppercase;
-		margin-bottom: 0;
-	}
-	li {
-		margin-bottom: 0;
-	}
-}
-
 /*
    Browser upgrade alert
    ========================================================================== */
@@ -719,84 +575,93 @@ $button-size: 1.5rem;
 // Grid OVERRIDE
 
 .site-name {
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+
 	@media #{$small} {
-		@include grid(12,2);
-		@include prefix(12,1.5);
-		@include suffix(12,0.5);
+		@include grid(12,5.5);
+		@include prefix(12,2);
+		@include suffix(12,0);
 	}
 
 	@media #{$large} {
-		@include grid(12,1.5);
-		@include prefix(12,1.5);
-		@include suffix(12,0.5);
+		@include grid(12,5.5);
+		@include prefix(12,2);
+		@include suffix(12,0);
 	}
 
 	@media #{$x-large} {
-		@include grid(12,1.5);
-		@include prefix(12,1.5);
-		@include suffix(12,0.5);
+		@include grid(12,5.5);
+		@include prefix(12,2);
+		@include suffix(12,0);
 	}
 }
 
 .top-navigation {
 	@media #{$small} {
-		@include grid(12,8);
-		@include prefix(12,0);
-		@include suffix(12,0);
-	}
-
-	@media #{$large} {
-		@include grid(12,6);
-		@include prefix(12,0);
-		@include suffix(12,0);
-	}
-
-	@media #{$x-large} {
-		@include grid(12,6);
-		@include prefix(12,0);
-		@include suffix(12,0);
-	}
-
-}
-
-.article-author-side {
-	@media #{$small} {
 		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
+		@include prefix(12,0);
+		@include suffix(12,0);
 	}
-	@media #{$large} {
-		@include grid(12,1.5);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
-	}
-	@media #{$x-large} {
-		@include grid(12,1.5);
-		@include prefix(12,1);
-		@include suffix(12,0.5);
-	}
-}
 
+	@media #{$large} {
+		@include grid(12,2);
+		@include prefix(12,0);
+		@include suffix(12,0);
+	}
+
+	@media #{$x-large} {
+		@include grid(12,2);
+		@include prefix(12,0);
+		@include suffix(12,0);
+	}
+
+}
 
 #main .post, #main .page, #index {
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+
 	@media #{$small} {
 		@include grid(12,8);
-		@include prefix(12,0);
+		@include prefix(12,2);
 		@include suffix(12,0);
 	}
 
 	@media #{$large} {
 		@include grid(12,6.5);
-		@include prefix(12,0);
+		@include prefix(12,2);
 		@include suffix(12,0);
 	}
 
 	@media #{$x-large} {
 		@include grid(12,6);
-		@include prefix(12,0);
+		@include prefix(12,2);
 		@include suffix(12,0);
 	}
 }
+
+
+.article-author-side {
+	@media #{$small} {
+		@include grid(12,10);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+	}
+	@media #{$large} {
+		@include grid(12,1.5);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+	}
+	@media #{$x-large} {
+		@include grid(12,1.5);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+	}
+}
+
 
 .footer-wrap footer {
 	// @include grid(12,10);

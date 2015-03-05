@@ -29,11 +29,6 @@
 {% endif %}
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-    <hr />
-    {% include _mailchimp.html %}
-  </div>
   <article class="post">
     <div class="headline-wrap">
       {% if page.link %}
@@ -69,6 +64,11 @@
       {% endif %}
     </span>
   </article>
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+    <hr />
+    {% include _mailchimp.html %}
+  </div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">

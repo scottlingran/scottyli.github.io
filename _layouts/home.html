@@ -15,11 +15,6 @@
 
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-    <hr />
-    {% include _mailchimp.html %}
-  </div>
   <div id="index">
     {% for post in site.posts limit:5 %}
     {% if post.public %}
@@ -43,6 +38,11 @@
     {% endfor %}
 
     <h2 class="text-center"><a href="/posts">See All</a></h2>
+  </div>
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+    <hr />
+    {% include _mailchimp.html %}
   </div>
 </div>
 
