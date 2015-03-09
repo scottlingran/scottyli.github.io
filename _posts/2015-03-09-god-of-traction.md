@@ -17,7 +17,7 @@ Thy distribution be done,
 
 In strategy, as it is in execution.
 
-Give us this day our daily analytics (standup),
+Give us this day our daily standup,
 
 And forgive us our burn rate,
 
