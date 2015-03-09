@@ -29,6 +29,11 @@
 {% endif %}
 
 <div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+    <hr />
+    {% include _mailchimp.html %}
+  </div>
   <div id="index" class="archive">
     {% for post in site.posts %}
 
@@ -56,11 +61,6 @@
     {% endif %}
     {% endfor %}
   </div><!-- /#index -->
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-    <hr />
-    {% include _mailchimp.html %}
-  </div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">

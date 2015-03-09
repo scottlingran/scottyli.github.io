@@ -15,20 +15,25 @@
 
 
 <div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+    <hr />
+    {% include _mailchimp.html %}
+  </div>
   <div id="index">
     {% for post in site.posts limit:5 %}
     {% if post.public %}
     <article>
       <div class="headline-wrap">
-        <h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+        <h1 id="{{ post.css }}"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
       </div>
-      <div class="article-wrap">
+      <div class="article-wrap" id="{{ post.css }}">
         {{ post.content }}
       </div>
     </article>
 
     <br><br>
-    <h3 class="comment-button">
+    <h3 class="comment-button" id="{{ post.css }}">
       <a href="{{ site.url }}{{post.url}}#comments" class="btn">Comments</a>
     </h3>
     <hr />
@@ -38,11 +43,6 @@
     {% endfor %}
 
     <h2 class="text-center"><a href="/posts">See All</a></h2>
-  </div>
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-    <hr />
-    {% include _mailchimp.html %}
   </div>
 </div>
 

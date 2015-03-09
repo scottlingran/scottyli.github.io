@@ -29,15 +29,20 @@
 {% endif %}
 
 <div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+    <hr />
+    {% include _mailchimp.html %}
+  </div>
   <article class="post">
     <div class="headline-wrap">
       {% if page.link %}
-        <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+        <h1 id="{{ page.css }}"><a href="{{ page.link }}">{{ page.title }}</a></h1>
       {% else %}
-        <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+        <h1 id="{{ page.css }}"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
     </div><!--/ .headline-wrap -->
-    <div class="article-wrap">
+    <div class="article-wrap" id="{{ page.css }}">
       {{ content }}
       <hr />
       <footer role="contentinfo">
@@ -64,11 +69,6 @@
       {% endif %}
     </span>
   </article>
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-    <hr />
-    {% include _mailchimp.html %}
-  </div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">

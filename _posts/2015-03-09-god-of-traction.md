@@ -6,8 +6,8 @@ tags: [sample post, code, highlighting]
 modified: 2015-03-09
 public: true
 comments: true
+css: center
 ---
-
 
 Our Father in Heaven, Traction be thy name.
 
@@ -28,8 +28,7 @@ And lead us not into premature optimization,
 But deliver us from bankruptcy.
 
 For thine is the Company, the Disruption, and the Exit,
-<br><br><br><br>
+<br><br><br>
 Now and forever,
 
 Amen.
-
