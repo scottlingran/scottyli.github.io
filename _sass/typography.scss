@@ -148,7 +148,7 @@ p {
   line-height: 1.75;
   @if $paragraph-indent == true {
     & + p {
-			text-indent: $indent-var;
+			// text-indent: $indent-var;
 			margin-top: -($indent-var - 1);
 		}
 	}
