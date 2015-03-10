@@ -1,7 +1,7 @@
 ---
 layout: post
-title: God of Traction
-excerpt: "A prayer to the God of Traction"
+title: A prayer to the God of Traction
+excerpt: "Our Father in Heaven, Traction be thy name ..."
 tags: [sample post, code, highlighting]
 modified: 2015-03-09
 public: true
