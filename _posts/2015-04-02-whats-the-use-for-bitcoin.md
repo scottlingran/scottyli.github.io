@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bitcoin use cases - legality vs usefulness
+title: What’s the use for Bitcoin?
 excerpt: "Bitcoin’s use cases are huge, but mostly illegal in the US. There’s much hype around the legal use cases, but those have little value."
 tags: [sample post, code, highlighting]
 modified: 2015-04-02
