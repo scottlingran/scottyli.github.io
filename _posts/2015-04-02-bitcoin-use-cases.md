@@ -99,7 +99,7 @@ For example Trendon Shaver’s Bitcoin Savings and Trust was the largest scam in
 
 Assets such as stocks and bonds issued via counterparty are illegal if they are not registered with the SEC. The SEC has already taken action against unregistered asset issuers. For example, Eric Vorhees was fined $50,000 for his illegal Satoshi Dice IPO[^14].
 
-However, registering with the SEC defeats the purpose of digital assets whose promise was to become self-regulating and cost effective. Once rule of law is reintroduced, the compliance costs make digital assets no better than “paper” assets. The alternative, again, is to become an asset issuer outside the reach of US jurisdiction.
+However, registering with the SEC defeats the purpose of digital assets whose promise was to become self-regulating and cost effective. Once rule of law is reintroduced, the compliance costs make digital assets no better than “paper” assets. The alternative, again, is to become an asset issuer outside the reach of US jurisdiction which could make digital assets semi-illegal and useful.
 
 
 # Legal, and Useful
