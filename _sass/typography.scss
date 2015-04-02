@@ -151,7 +151,15 @@ p {
 			// text-indent: $indent-var;
 			margin-top: -($indent-var - 1);
 		}
+
+
 	}
+}
+ol li, ul li {
+  font-size: $reading-size;
+  word-break: break-word;
+
+  line-height: 1.75;
 }
 
 ul li {
