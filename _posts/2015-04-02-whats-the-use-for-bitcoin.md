@@ -43,7 +43,7 @@ Many of these goods/services are not against public policy, and the law is chang
 
 Online gambling is a $30bn+ market worldwide, $300bn including offline[^4]. The potential is even greater if Americans and Chinese consumers could gamble. However, online gambling is illegal in the US and depositing/withdrawing money into foreign sites is difficult.
 
-Since 2006, the UIGEA[^5] has legally prevented payment processing for gambling transactions, even for offshore sites. However, many gambling sites still engaged in bank fraud to circumvent these rules. This collapsed in 2011 when the DoJ crackdown cracked down on the Poker Sites[^6]. The payment processors serving these sites had their entire accounts seized, and end users ultimately lost all their money.
+Since 2006, the UIGEA[^5] has legally prevented payment processing for gambling transactions, even for offshore sites. However, many gambling sites still engaged in bank fraud to circumvent these rules. This collapsed in 2011 when the DoJ cracked down on the Poker Sites[^6]. The payment processors serving these sites had their entire accounts seized, and end users ultimately lost all their money.
 
 Given the huge latent demand for gambling since, it’s no surprise gamblers have embraced Bitcoin to fund their activities. Not only does Bitcoin enable them to fund their accounts on unlicensed gambling sites, it also gives them control of their funds and instant deposits/withdrawals. A plethora of unlicensed operators have emerged to serve these customers. Gambling is the one of the most active threads on BitcoinTalk[^7].
 
