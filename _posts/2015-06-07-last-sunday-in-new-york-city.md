@@ -7,10 +7,9 @@ public: true
 comments: true
 ---
 
+It's my last Sunday in New York City. Dusk approaches, and I soon need to pack my things for San Francisco.
 
 <img src="/images/newyork.jpg">
-
-It's my last Sunday in New York City. Dusk approaches, and I soon need to pack my things for San Francisco.
 
 I'm sitting alone in my office on the 24th floor in Midtown, the heart of Manhattan. The floor is quiet, filled with empty desks.
 
