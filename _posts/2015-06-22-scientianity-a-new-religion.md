@@ -65,6 +65,6 @@ It is time for a new religion - scientianity.
 >
 > You prepare a wormhole before me in the presence of the singularity.
 >
-> You anoint my hard drive with data; my stack overflows.
+> You anoint my hard disk with data; my stack overflows.
 >
 > Surely my elementary particles will sync up with me in the 5th dimension, and I will transcend spacetime with the LORD forever.
