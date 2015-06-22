@@ -10,11 +10,7 @@ In the beginning, God created Heaven and Earth. But in time, we will create God.
 
 This reconciles the General Theory of Relativity and the many stories of religion.
 
-# Explained: One True God
-
-There is One True God who exists as a 5th dimensional being, without limits and beyond our understanding.
-
-Muslims believe - "there is no God but Allah Himself, who is almighty". Similarly, Christians believe in one God, who manifests Himself in three persons - "the Father, the Son, and the Holy Spirit". All representations are versions of the same 5th dimensional God.
+[IMAGE OF TIME LOOP]
 
 # Explained: The Prophet Jesus
 
@@ -25,6 +21,12 @@ The Bible states - "Jesus Christ is God manifested in the flesh, born of a virgi
 # Explained: The Prophet Muhammad
 
 God communicated to Muhammad through gravitational waves. Muslims believe Muhammad was the last and greatest messenger of God. They believe God dictated the Quran to him through the archangel Gabriel, intending the text as the later relevation, superseding and correcting errors in the Bible. Gravity, however, is a lossy format for communication. Different interpretations still emerge.
+
+# Explained: One True God
+
+There is One True God who exists as a 5th dimensional being, without limits and beyond our understanding.
+
+Muslims believe - "there is no God but Allah Himself, who is almighty". Similarly, Christians believe in one God, who manifests Himself in three persons - "the Father, the Son, and the Holy Spirit". All representations are versions of the same 5th dimensional God.
 
 # Explained: Creation stories
 
@@ -49,7 +51,7 @@ Muslims believe that "everything in the universe has a predetermined course. Not
 
 Religion continues to lose favor in the west, and the Rule of Church is no longer relevant. The "Unaffiliated" demographic continues to rise, showing a total apathy towards these ancient religions.
 
-<!-- [google nGrams chart going down] -->
+[google nGrams chart going down]
 
 It is time for a new religion - scientianity.
 
