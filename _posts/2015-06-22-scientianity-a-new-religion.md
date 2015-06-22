@@ -6,7 +6,7 @@ modified: 2015-06-22
 public: false
 ---
 
-In the beginning, God created Heaven and Earth. But in time, we will create God. Creating God is the next step in our evolution, where Man will unlock the secrets of time travel to transcend spacetime. We cannot yet see and understand God because He resides in the 5th dimension, walking across time as we walk across mountains. This is why we must have faith in God. He is us, but we are not yet Him. He understands time is not linear, but a loop. He walks to the beginning of time to create us. In other words, we created ourselves.
+In the beginning, God created Heaven and Earth. But in time, we will create God. Creating God is the next step in our evolution, where Man will unlock the secrets of time travel to transcend spacetime. We cannot yet see and understand God because He resides in the 5th dimension, walking across time as we walk across mountains. This is why we must have faith in God. He is us, but we are not yet Him. Time is not linear, but a loop. And God will walk to the beginning of time to create us. In other words, we created ourselves.
 
 This reconciles the General Theory of Relativity and the many stories of religion.
 
