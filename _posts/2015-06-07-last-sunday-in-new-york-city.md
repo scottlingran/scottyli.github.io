@@ -3,7 +3,7 @@ layout: post
 title: It's my last Sunday in New York City
 excerpt: "Dusk approaches, and I soon need to pack my things for San Francisco."
 modified: 2015-06-07
-public: true
+public: false
 comments: true
 ---
 
