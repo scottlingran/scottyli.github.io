@@ -51,7 +51,7 @@ Reducing startup cycles allows for more tries. The common advice is to "fail fas
 
 ### 3. Reduce variance
 
-If you have a 20% chance of creating $10m in wealth, the expected outcome is $2m. However, the variance is high. You either get $0, or $2m.
+If you have a 20% chance of creating $10m in wealth, the expected outcome is $2m. However, the variance is high. You either get $0, or $10m.
 
 Venture capitalists reduce variance by diversifying their risk. Founders could do something similar. The logic is that one of you will make it big but you don't know who. Therefore, you could swap 1% of your equity for another founder's equity in a different company. The more companies the better, so long as you have faith in those founders. This reduces the risk for all founders and increase likelihood of a payoff for all involved. Founders having a stake in each others' companies could also improve camaraderie and collaboration.
 
