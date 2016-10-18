@@ -2,8 +2,8 @@
 
 title:            Scott Li
 locale:           en_US
-url:
-production_url: https://scottyli.com
+url:              https://scottyli.com
+production_url:   https://scottyli.com
 
 # Jekyll configuration
 
