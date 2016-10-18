@@ -4,7 +4,7 @@ title: It's my last Sunday in New York City
 excerpt: "Dusk approaches, and I soon need to pack my things for San Francisco."
 modified: 2015-06-07
 public: false
-comments: true
+comments: false
 ---
 
 It's my last Sunday in New York City. Dusk approaches, and I soon need to pack my things for San Francisco.

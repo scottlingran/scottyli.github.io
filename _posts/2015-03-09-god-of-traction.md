@@ -5,7 +5,7 @@ excerpt: "Our Father in Heaven, Traction be thy name ..."
 tags: [sample post, code, highlighting]
 modified: 2015-03-09
 public: true
-comments: true
+comments: false
 css: center
 ---
 
